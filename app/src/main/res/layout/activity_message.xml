@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".message"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number"
+        android:layout_marginTop="180dp"
+        android:textSize="30dp"
+       android:id="@+id/edno"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Message"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:id="@+id/edmsg"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="SEND"
+        android:onClick="send"
+        android:backgroundTint="#00ffff"
+        android:layout_marginTop="40dp"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Call"
+        android:onClick="call"
+        android:backgroundTint="#00ff00"
+        android:layout_marginTop="40dp"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="LOGOUT"
+        android:onClick="logout"
+        android:backgroundTint="#ff0000"
+        android:layout_marginTop="40dp"></Button>
+</LinearLayout>
